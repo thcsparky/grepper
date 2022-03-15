@@ -47,8 +47,9 @@ def main():
                             for printItems in found:
                                 print(printItems + '\n')
                                 print(urlsgot[len(urlsgot) - 1] + '\n')
+                                
                 except Exception as e:
-                    print(e + '\n')
+                    print(e)
 
     if returndat == '':
         print('Error getting data\n')
